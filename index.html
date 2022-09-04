@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat Fitness</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+<style>
+    /* CSS Reset */
+    body {
+        font-family: "Trirong", serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+        background: url('img/gym.jpg');
+
+    }
+
+
+    .left {
+        margin: 18px;
+        position: absolute;
+        left: 30px;
+        top: 0%;
+        display: inline-block;
+        /* border: 2px solid rgb(249, 248, 248); */
+
+    }
+
+    .mid {
+        display: block;
+        margin: 18px auto;
+        width: 33%;
+        /* border: 2px solid grey; */
+
+
+    }
+
+    .right {
+        margin: 15px;
+        position: absolute;
+        right: 34px;
+        top: 0;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+
+    }
+
+    .navbar {
+        text-align: center;
+        font-size: 18px;
+
+    }
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 0 15px;
+
+    }
+
+    .navbar a:hover,
+    .navbar a:active {
+        /* text-decoration: underline; */
+        color: grey;
+    }
+
+    .left img {
+        width: 48px;
+        height: 48px;
+        filter: invert(100%);
+    }
+
+    .btn {
+        font-family: "Trirong", serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+    }
+
+    .btn:hover {
+        background-color: rgb(90, 84, 84);
+    }
+
+    .container {
+        /* border: 2px solid white; */
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 30px;
+    }
+    .container h1{
+        text-transform: capitalize;
+        text-align: center;
+        margin: 15px;
+        font-size: 28px;
+    }
+
+    .formgrp input {
+        text-transform: capitalize;
+        font-family: "Trirong", serif;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        padding: 2px 49px;
+        width: 65%;
+        margin: 4px auto;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .container button{
+        display: block;
+        width: 85%;
+        margin: 20px auto;
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+
+        <div class="left">
+            <img src="logo.png" alt="Logo">
+        
+
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">Aboutus</a>
+                <a href="#">FitnessCalculator</a>
+                <a href="#">ContactUs</a>
+            </nav>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Alwar now</h1>
+        <form action="noaction.php">
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="formgrp">
+                <input type="text" name="" placeholder="Enter your Weight">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
